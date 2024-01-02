@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org"
+      xmlns:layout="http://www.ultraq.net.nz/thymeleaf/layout">
+
+<header>
+    <meta charset="UTF-8">
+    <title th:if="${pageTitle != null}" th:text="${pageTitle}"></title>
+
+    <!--모든 공통 스타일-->
+    <link rel="stylesheet" type="text/css" th:href="@{/common/css/style.css}">
+    <!--관리자 공통 스타일-->
+    <link rel="stylesheet" type="text/css" th:href="@{/admin/css/style.css}">
+
+    <script th:src="@{/common/js/common.js}"></script>
+    <script th:src="@{/admin/js/common.js}"></script>
+</header>
+<body></body>
+
+</html>
