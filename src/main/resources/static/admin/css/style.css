@@ -119,4 +119,31 @@ main > aside > a.on:after, main > aside > a:hover:after {
 
 
 }
+
+nav.submenus {
+           box-shadow: 1px 1px 5px #cdced5;
+           height: 60px;
+           background: #fff;
+           border-radius: 5px;
+           /* 매뉴 아래쪽 여백 */
+           margin-bottom: 50px;
+           display: flex;
+           align-ite ms: center;
+}
+
+nav.submenus a {
+
+           height: 60px;
+           line-height: 60px;
+           padding: 0 40px;
+           font-size: 1.385rem;
+           color: #222;
+
+}
+
+nav.submenus a.on {
+           background: #596b99;
+           color: #fff;
+           font-weight: 500;
+}
 /* 내용 영역 E */
